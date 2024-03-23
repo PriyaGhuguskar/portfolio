@@ -1,0 +1,27 @@
+.about-div {
+  height: 40vh;
+  width: 100vw;
+  margin: 5vh auto 0 auto;
+  font-size: 1.2rem;
+}
+
+.about-des h1 {
+  color: #8276e3;
+  margin-bottom: 4vh;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.about-icon {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-div img {
+  cursor: pointer;
+  padding: 0.8rem;
+}
+.about-icon img:hover {
+  transition: all 100ms ease;
+  transform: scale(1.1);
+}
